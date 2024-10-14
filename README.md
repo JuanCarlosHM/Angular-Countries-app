@@ -1,27 +1,54 @@
-# CountryApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.2.
+# PaisesApp
 
-## Development server
+PaisesApp es una aplicación desarrollada en Angular que permite visualizar información detallada de países a partir de búsquedas por capital, nombre o región (continente). Los usuarios pueden explorar datos relevantes como la población y la bandera del país.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Características
 
-## Code scaffolding
+- Búsqueda de países por capital, nombre y región.
+- Visualización de detalles como la bandera, nombre y población.
+- Interfaz de usuario intuitiva y fácil de usar.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Tecnologías Utilizadas
 
-## Build
+- **Angular**: Framework para la construcción de la interfaz de usuario.
+- **API de Paises**: Proporciona acceso a información detallada sobre los países.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Instalación
 
-## Running unit tests
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/JuanCarlosHM/Angular-Countries-app
+   ```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+2. Navega al directorio del proyecto:
+   ```bash
+   cd paisesApp
+   ```
 
-## Running end-to-end tests
+3. Instala las dependencias:
+   ```bash
+   npm install
+   ```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+4. Inicia la aplicación:
+   ```bash
+   ng serve
+   ```
 
-## Further help
+5. Abre tu navegador y visita `http://localhost:4200`.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+## Uso
+
+- Selecciona el criterio de búsqueda (por capital, por país o por región).
+- Ingresa el término de búsqueda en la barra correspondiente y presiona Enter.
+- Explora los detalles del país en la tabla de resultados.
+
+## Contribuciones
+
+Las contribuciones son bienvenidas. Si tienes alguna sugerencia o encuentras un error, no dudes en abrir un issue o hacer un pull request.
+
+## Licencia
+
+Este proyecto está bajo la Licencia MIT. Para más detalles, consulta el archivo LICENSE.
